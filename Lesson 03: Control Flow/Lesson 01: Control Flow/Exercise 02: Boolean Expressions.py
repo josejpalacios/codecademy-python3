@@ -1,4 +1,4 @@
-A boolean expression is a statement that can either be True or False.
+# A boolean expression is a statement that can either be True or False.
 
 # Determine if the following statements are boolean expressions or not.
 
