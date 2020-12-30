@@ -75,8 +75,8 @@ def shipping_method(weight):
     print("The cheapest shipping method is premium ground shipping. The cost to ship a package that weights " + str(weight) + " lbs using premium ground shipping is $" + str(premium_ground_shipping) + ".")
 
 # Task 7: Test function with 4.8 and 41.5.
-
 shipping_method(4.8)
 # The cheapest shipping method is ground shipping. The cost to ship a package that weights 4.8 lbs using ground shipping cost $34.4
 shipping_method(41.5)
 # The cheapest shipping method is premium ground shipping. The cost to ship a package that weights 41.5 lbs using premium ground shipping is $125.0.
+  
