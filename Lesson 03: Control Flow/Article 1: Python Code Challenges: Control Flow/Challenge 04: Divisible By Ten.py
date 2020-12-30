@@ -1,6 +1,6 @@
-Create a function called divisible_by_ten() that has one parameter named num.
+# Create a function called divisible_by_ten() that has one parameter named num.
 
-The function should return True if num is divisible by 10, and False otherwise. Consider using modulo (%) to check for divisibility.
+# The function should return True if num is divisible by 10, and False otherwise. Consider using modulo (%) to check for divisibility.
 
 # Write your divisible_by_ten function here:
 def divisible_by_ten(num):
