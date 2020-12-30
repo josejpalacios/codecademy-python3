@@ -1,6 +1,6 @@
-Create a function named twice_as_large() that has two parameters named num1 and num2.
+# Create a function named twice_as_large() that has two parameters named num1 and num2.
 
-Return True if num1 is more than double num2. Return False otherwise.
+# Return True if num1 is more than double num2. Return False otherwise.
 
 # Write your twice_as_large function here:
 def twice_as_large(num1, num2):
