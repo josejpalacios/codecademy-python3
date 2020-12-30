@@ -1,6 +1,6 @@
-Write a function named tenth_power() that has one parameter named num.
+# Write a function named tenth_power() that has one parameter named num.
 
-The function should return num raised to the 10th power.
+# The function should return num raised to the 10th power.
 
 # Write your tenth_power function here:
 def tenth_power(num):
