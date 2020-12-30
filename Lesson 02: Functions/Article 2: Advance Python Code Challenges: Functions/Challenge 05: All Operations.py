@@ -1,12 +1,12 @@
-Create a function named lots_of_math(). This function should have four parameters named a, b, c, and d. The function should print 3 lines and return 1 value.
+# Create a function named lots_of_math(). This function should have four parameters named a, b, c, and d. The function should print 3 lines and return 1 value.
 
-First, print the sum of a and b.
+# First, print the sum of a and b.
 
-Second, print d subtracted from c.
+# Second, print d subtracted from c.
 
-Third, print the first number printed, multiplied by the second number printed.
+# Third, print the first number printed, multiplied by the second number printed.
 
-Finally, return the third number printed modulo a.
+# Finally, return the third number printed modulo a.
 
 # Write your lots_of_math function here:
 def lots_of_math(a, b, c, d):
