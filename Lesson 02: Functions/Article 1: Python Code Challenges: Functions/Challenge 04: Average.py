@@ -1,6 +1,6 @@
-Write a function named average() that has two parameters named num1 and num2.
+# Write a function named average() that has two parameters named num1 and num2.
 
-The function should return the average of these two numbers.
+# The function should return the average of these two numbers.
 
 # Write your average function here:
 def average(num1, num2):
