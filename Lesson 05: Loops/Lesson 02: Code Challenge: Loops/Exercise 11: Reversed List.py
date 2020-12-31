@@ -5,3 +5,21 @@
 
 # For example, reversed_list([1, 2, 3], [3, 2, 1]) should return True.
 
+#Write your function here
+def reversed_list(lst1, lst2):
+  # Iterate through list
+  for index in range(0, len(lst1)):
+    # If numbers are reversed
+    if (lst1[index] == lst2[len(lst2)-1-index]):
+      # Continue
+      continue
+    # Else numbers are not reversed
+    else:
+      # Return False
+      return False
+  # Return True
+  return True
+
+#Uncomment the lines below when your function is done
+print(reversed_list([1, 2, 3], [3, 2, 1]))
+print(reversed_list([1, 5, 3], [3, 2, 1]))
