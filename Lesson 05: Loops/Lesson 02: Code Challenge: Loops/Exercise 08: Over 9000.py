@@ -6,7 +6,7 @@
 # the function should return total sum of all the elements.
 # If the list is empty, the function should return 0.
 
-For example, if lst was [8000, 900, 120, 5000], then the function should return 9020.
+# For example, if lst was [8000, 900, 120, 5000], then the function should return 9020.
 
 #Write your function here
 def over_nine_thousand(lst):
