@@ -21,7 +21,8 @@ def score_word(word):
   # Task 5: Iterate through word and add point values to point_total
   for letter in word:
     # Add point value from dictionary to point_total. Default to 0 if letter is not in dictionary
-    point_total += letter_to_points.get(letter, 0)
+    # Task 15: Extra - Make input work with lowercase letters
+    point_total += letter_to_points.get(letter.upper(), 0)
   # Task 6: Return point_total
   return point_total
 # Task 7: Test score_word function with BROWNIE
@@ -55,4 +56,37 @@ for player, words in player_to_words.items():
   player_to_points[player] = player_points
 # Task 14: Print player_to_points. wordNerd should be winning by 1 point.
 print(player_to_points)
-# Task 15: Finish
+
+# ===================================
+# Ideas for Further Practice! Section
+# ===================================
+# Task 15: Extra Functions
+# - update_point_totals: Nested loop from Task 11 to Task 13 to be called when a word is played
+# - play_word: Takes a player and word and adds word to player's list of words
+# Able to score lowercase inputs as well - Code is labeled as Task 15: Extra above.
+# Write update_point_totals function
+def update_point_totals():
+  # Iterate through player_to_words
+  for player, words in player_to_words.items():
+    # Create variable
+    player_points = 0
+    # Iterate through words
+    for word in words:
+      # Add value of word to player_points
+      player_points += score_word(word)
+    # Add key value pair to player_points using player and player_points
+    player_to_points[player] = player_points
+
+# Write play_word function
+def play_word(player, word):
+  # Append word to players list of words
+  player_to_words.get(player).append(word)
+  # Call update_point_totals
+  update_point_totals()
+  # Print player_to_points
+  print(player_to_points)
+
+# Test play_word function
+play_word("player1", "COOKIE")
+# Test play_word function
+play_word("wordNerd", "Water")
