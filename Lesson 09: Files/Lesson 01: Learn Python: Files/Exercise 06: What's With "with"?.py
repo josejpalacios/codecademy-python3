@@ -20,3 +20,10 @@
 # Since this is necessarily more verbose (requires at least one more line of code)
 # without being any more expressive, using with is preferred.
 
+# Open file manually
+# close_this_file = open('fun_file.txt')
+# Open file using with
+with open('fun_file.txt') as close_this_file:
+  # Read lines
+  setup = close_this_file.readline()
+  punchline = close_this_file.readline()
