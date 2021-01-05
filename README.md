@@ -7,3 +7,4 @@ I took this course from December 2020 to Januray 2021 in my spare time in order 
 - Lesson Exercises
 - Coding Challenge Questions
 - Projects
+## Certificate
