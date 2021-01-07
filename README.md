@@ -8,4 +8,4 @@ I took this course from December 2020 to Januray 2021 in my spare time in order 
 - Coding Challenge Questions
 - Projects
 ## Certificate
-![Alt text](https://github.com/josejpalacios/codecademy-python3/blob/main/Python3_Certificate_of_Completion.jpg)
+![Alt text](https://github.com/josejpalacios/codecademy-python3/blob/main/Certificate_of_Completion_Python3.jpg)
